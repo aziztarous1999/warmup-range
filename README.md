@@ -8,13 +8,13 @@ Built with Next.js (App Router), React and Three.js.
 ## Demo
 
 ![Main menu](docs/screenshots/menu.png)
-*Pick a mode and difficulty, enter your in-game sensitivity and DPI — turn speed and field of view match Valorant or CS2 exactly. The leaderboard for the selected mode sits on the right.*
+*Pick a mode and difficulty, enter your in-game sensitivity and DPI turn speed and field of view match Valorant or CS2 exactly. The leaderboard for the selected mode sits on the right.*
 
 ![Peek Shots](docs/screenshots/peek.png)
 *Peek Shots: a bot strafes behind walls and half-height crates. Crates hide the body but leave the head exposed; shots into cover count as misses. Headshots score 3x.*
 
 ![Tracking](docs/screenshots/tracking.png)
-*Tracking: follow a strafing, jumping bot. Time on the body scores, time on the head scores 3x — the crosshair turns gold when you're on the head.*
+*Tracking: follow a strafing, jumping bot. Time on the body scores, time on the head scores 3x the crosshair turns gold when you're on the head.*
 
 ![Results and coach](docs/screenshots/results.png)
 *After each round: detailed stats, coach tips based on how you played (overshooting, hesitation, shots into cover, headshot rate…) and leaderboard submission.*
@@ -85,5 +85,5 @@ npm run typecheck  # TypeScript only
 
 ## Known limitations
 
-- Scores are computed in the browser, so the server can only reject impossible runs — it cannot fully prevent cheating.
+- Scores are computed in the browser, so the server can only reject impossible runs it cannot fully prevent cheating.
 - Player names are not accounts: anyone can submit under any name.
